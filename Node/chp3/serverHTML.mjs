@@ -3,6 +3,8 @@ import {createServer} from 'http';
 const server = createServer((request, response) => {
   response.writeHead(200, {'content-type':'text/html; charset=utf-8'});
 
+  const url = new URL(request.url, 'http://localhost:8080');
+
   const body = `<!DOCTYPE html>
   <html lang="en">
   <head>
@@ -12,7 +14,7 @@ const server = createServer((request, response) => {
     <title>Server generated</title>
   </head>
   <body>
-    <h1 style="color:green">Hello World</h1>
+    <h1 style="color:green">Hello ${url.searchParams.get('name')}</h1>
   </body>
   </html>`;
 
