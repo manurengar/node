@@ -1,0 +1,2 @@
+nodemon server.mjs for restarting the program each time you modify a file. USE ONLY IN DEV system
+to debug on cmd -- node inspect server.mjs
