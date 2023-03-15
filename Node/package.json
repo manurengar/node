@@ -1,0 +1,22 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Working node book package",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/manurengar/node.git"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "Manuel Rentero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manurengar/node/issues"
+  },
+  "homepage": "https://github.com/manurengar/node#readme"
+}
