@@ -16,7 +16,7 @@ console.log(__dirname);
 
 // Another module which is globally available is the buffer module (fs)
 // which is helpful in the handling of binary data
-readFile(".//data.txt", (err,data) => {
+readFile("Node\\chp4\\globalVariables\\data.txt", (err,data) => {
   console.log(data); // Buffer object in binary form
   console.log(data?.toString());
 });
