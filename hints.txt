@@ -1,2 +1,7 @@
 nodemon server.mjs for restarting the program each time you modify a file. USE ONLY IN DEV system
+
 to debug on cmd -- node inspect server.mjs
+
+The package.json file can be created using npm init command line where a series of question will be asked or use npm init -y  
+to answer all these questions with default values. This file enables us to do a lot of things among them to specify the package system we
+want to use
