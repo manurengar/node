@@ -1,0 +1,5 @@
+node inspect X.msj
+list(6) -> 6 lines of the current code to be displayed
+n - next line
+repl - interactive mode to display values of constants or variables
+bt - backtrace, is like the program stack on abap debugger

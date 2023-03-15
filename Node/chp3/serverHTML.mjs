@@ -1,3 +1,5 @@
+// URL with params http://localhost:8080/?name=Manuel
+'use strict';
 import {createServer} from 'http';
 
 const server = createServer((request, response) => {
