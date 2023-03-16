@@ -1,0 +1,4 @@
+{
+  "name": "wordCount",
+  "main": "./lib/wordCount.js"
+}

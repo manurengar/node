@@ -16,3 +16,18 @@ console.log(process.geteuid());
 //console.log(process.seteuid('1001'));
 
 //console.log(process.geteuid());
+
+// we can subscribe to several enventhandler methods on the process object
+// see table 4.5
+process.on('unhandledRejection', (error) => {
+  console.error('unhandledRejection');
+  console.error(error);
+})
+
+function withPromise() {
+  return Promise.reject('An error occurred');
+}
+
+withPromise.then(() => {
+  console.log('Promise resolved');
+})
