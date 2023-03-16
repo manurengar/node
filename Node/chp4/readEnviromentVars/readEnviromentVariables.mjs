@@ -13,6 +13,6 @@ console.log(process.versions);
 console.log(process.geteuid());
 
 // set user id
-console.log(process.seteuid('1001'));
+//console.log(process.seteuid('1001'));
 
-console.log(process.geteuid());
+//console.log(process.geteuid());
